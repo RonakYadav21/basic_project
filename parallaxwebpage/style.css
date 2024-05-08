@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.parallax-1{
+  background-image: url("background.png");  
+  background-attachment: fixed;
+  background-size: 100%,100%;
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  
+}
+.para-1{
+    background-color: black;
+}
+.parallax-1 h2{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 170px;
+    left: 50px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 250px;
+}
+#p{
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    font-size: 15px;
+
+}
+.parallax-2{
+    background-image: url("do.png");
+    background-attachment: fixed;
+    background-size: 100%,100%;
+    width: 100%;
+    height: 600px;
+  
+}
+.heading{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 170px;
+    left: 50px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+
+}
+.para2{
+    background-color: black;
+    color: antiquewhite;
+}
+.parallax-3 h2{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 170px;
+    left: 50px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Image Gallery</title>
+
+</head>
+<body>
+    <div class="content">
+    <div class="navbar">
+      <ul>
+          <li><a href="#contact">CONTACT</a></li>        
+          <li><a href="#">ARTIST</a></li>
+          <li><a href="#song">MUSIC</a></li>
+        <li><a href="#home">HOME</a></li>
+      </ul>
+    </div>
+<H2 class="heading">Welcome To Music Gallery</h2>
+    <div class="music">
+<div class="item">
+    <div class="image"><img src="re2.jpeg "></div>
+    <h2 class="movie">Roja kaathu</h2>
+    <p class="art">hariharan</p>
+    <button class="prev"><img></button>
+    <button class="play"><i class="fa-thin fa-play"></i></i></button>
+    
+    <button class="next"><img></button>
+</div>
+<div class="item">
+    <div class="image"><img src="pushpa.jpeg "></div>
+    <h2 class="movie">Srivalli</h2>
+    <p class="art">Sid Sriram</p>
+    <button class="prev"><img></button>
+    <button class="play"><i class="fa-thin fa-play"></i></i></button>
+    
+    <button class="next"><img></button>
+</div>
+<div class="item">
+    <div class="image"><img src=" pheri.jpeg">
+    </div>
+        <h2 class="movie">DeneWala</h2>
+        <p class="art">Abijeet</p>
+        <button class="prev"><img></button>
+        <button class="play"><i class="fa-solid fa-play"></i></button>
+        <button class="next"><img></button>
+</div>
+</div>
+    </div>
+    <div id="home">
+   <h2 id="heading">Welcome to the Melody Haven: Your Gateway to Musical Bliss</h2>
+
+    <p class="p">At Melody Haven, we believe that music is not just a sound; it's an experience, a journey that transcends boundaries and connects souls. Whether you're a casual listener, a passionate aficionado, or a budding musician, our platform is designed to cater to your every musical need.</p>
+    
+    <h2 id="heading">Explore the Symphony of Possibilities</h2>
+    
+   <p class="p"> Dive into a universe of melodies, beats, and rhythms curated just for you. From classical compositions to cutting-edge electronic tracks, from timeless jazz standards to the latest chart-toppers, our extensive collection spans genres and eras, ensuring there's something for everyone.</p>
+    
+    <h2 id="heading">Discover Your Soundtrack</h2>
+    
+   <p class="p"> Let our intuitive recommendation system be your guide as you uncover new favorites and rediscover old classics. Whether you're seeking inspiration for a road trip, a workout session, or a cozy night in, we've got the perfect playlist to set the mood and elevate your experience.</h1>
+    
+    <h2 id="heading">Unleash Your Creativity</h2>
+    
+    <p class="p">Are you an aspiring artist looking to share your talent with the world? Look no further. Melody Haven provides a platform for musicians of all levels to showcase their original compositions, collaborate with fellow creators, and connect with a global audience eager to embrace new sounds and voices.</p>
+    
+    <h2 id="heading">Stay Tuned</h2>
+    
+    <p class="p">Stay up-to-date with the latest news, releases, and trends in the world of music. Our blog features insightful articles, interviews with industry insiders, and behind-the-scenes glimpses into the creative process, ensuring you're always in the know.</p>
+    
+    <h2 id="heading">Join the Melody Haven Community</h2>
+    
+    <p class="p">Music is meant to be shared, and our vibrant community is proof of that. Engage with fellow music lovers, exchange recommendations, and participate in lively discussions about all things music. Whether you're here to listen, create, or simply connect, you'll find kindred spirits ready to welcome you with open arms.</h1>
+    
+    <h2 id="heading">Your Journey Starts Here</h2>
+    
+    <p class="p">So, are you ready to embark on a musical odyssey like no other? Join us at Melody Haven, where every note has a story to tell, and every listener is part of the symphony. Let's make beautiful music together.<p>
+
+    </div>
+    <div id="playmusic">
+<h1 id="song"> Music playlist</h1>
+    <div class="list">
+<div><img src="palpal.jpeg" class="listimage"></div><p class="song">Pal Pal Dil Ke Paas</p>
+<p class="desc">A song from the 1973 film Blackmail composed by Kalyanji-Anandji</p>
+    </div>
+    <div class="list">
+        <div><img src="l.jpeg" class="listimage"></div><p class="song">Lag Ja Gale
+        </p>
+        <p class="desc">A song from the 1964 movie Woh jo Haseena sung by Lata Mangeshkar and composed by Madan Mohan Kohli
+        </p>
+    </div>
+    <div class="list">
+        <div><img src=" download.jpeg" class="listimage"></div><p class="song">O Mere Dil Ke Chain
+        </p>
+        <p class="desc">A song from the 1972 film Mere Jeevan Saathi featuring Rajesh Khanna and Tanuja, composed by R.D. Burman and sung by Kishore Kumar
+        </p>
+    </div>
+</div>
+<div id="contact">
+    <h1 class="c">CONTACT US</h1>
+    <form>
+        <div class="formcontent">
+    <div class="form">
+        <label for='query'>Types Of Query</label>
+    </div>
+    <div class="d2">
+        <select id="query" class="in">
+            <option value=" select">Select</option>
+            <option value=" Order Related Issue">Music Related Issue</option>
+            <option value="Site Related Issue ">Site Related Issue </option>
+            <option  value="Complaint Related Issue " >Complaint Related Issue </option>
+             <option value="other "> other</option>
+      </select>
+    </div>
+    <br><br>
+<div class="form">
+    <label for="name">NAME</label>
+</div>
+<div class="d2">
+    <input type="text" placeholder="name" id='name' name="yourname" class="in">
+</div>
+<div class="form"><label for="email">E-MAIL</label></div>
+<div class="d2">
+<input type="email" id="email" name="youemail" placeholder="e-mail" class="in">
+</div>
+<div class="form"><label for="phoneno.">PHONE NUMBER</label></div>
+<div class="d2"><input type="text" id="phoneno." placeholder="XXXXXX12"  class="in"></div>
+<div class="form">
+    <fieldset><legend>Are You  Member Of Online music play</legend>
+        <input type="radio" id ="r" name="c"><label for="r" class="yes">Yes</label><br>
+        <input type="radio" id ="w" name="c"><label for="r" class="yes">No</label>
+</div>
+<div class="form">
+    <label for="txt">Ellaborate Your Query </label>
+</div>
+<div class="d2">
+    <textarea rows="8" cols="30" class="in" id="txt"> Write Your Query Here </textarea>
+</div>
+<div class="form">
+<input type="button" value="SUBMIT" id="button"></div>
+</div>
+
+</body>
+</html>

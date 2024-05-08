@@ -1,0 +1,100 @@
+.box{
+     animation-name:my-animation;
+     animation-duration: 2.5s;    
+     position: absolute;
+     animation-direction: alternate;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     left:50px;
+     top:100px;  
+}
+@keyframes my-animation{
+    from{
+        background-color: brown;
+        width: 200px;
+        height: 200px;
+    }
+    to{
+        background-color: black;
+        width: 400px;
+        height: 400px;
+    }
+}
+.load{
+    width: 100px;
+    height: 100px;
+    
+}
+.square{
+    width: 400px;
+    height: 400px;
+    background-color:coral;
+    position: absolute;
+    left:500px;
+    top:300px;
+    animation: squaretocircle 1s  1s infinite alternate;
+}
+@keyframes squaretocircle{
+    0%{
+     background-color: coral;
+     transform: rotate(0deg);
+     border-radius: 0 0 0 0;
+    }
+    25%{
+        background-color: brown;
+        transform: rotate(45deg);
+        border-radius: 50% 0 0 0;
+    }
+    50%{
+        background-color: antiquewhite;
+        transform: rotate(90deg);
+        border-radius: 50% 50% 0 0;
+    }
+    75%{
+        background-color: black;
+        transform: rotate(135deg);
+        border-radius: 50% 50% 50% 0;
+    }
+    100%{
+        background-color: burlywood;
+        transform: rotate(180deg);
+        border-radius: 50% 50% 50% 50%;
+
+    }
+}
+button{
+position: absolute;
+width: 200px;
+height: 100px;
+background-color: black;
+color: aliceblue;
+font-size: 20px;
+left:600px;
+top:100px;
+border-top: 7px solid red;
+animation: shake 0.8s linear infinite ;
+}
+@keyframes shake{
+    0% ,7%{
+transform: rotate(0deg);
+    }
+    15%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(10deg);
+    }
+    40%{
+        transform: rotate(0);
+
+    }
+    55%{
+        transform: rotate(-10deg);
+    }
+    70%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

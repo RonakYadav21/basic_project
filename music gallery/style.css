@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.content{
+    background-color: black;
+    height: 600px;
+}
+.music{
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100%;
+}
+
+.item{
+    background-color: rgb(37, 34, 34);
+    position: relative;
+    width: 25%;
+    height: 350px;
+}
+
+.image{
+    width: 500px;
+    margin: 30px;
+    
+}
+.art{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    font-size: 15px;
+top:261px;
+left:145px;
+    
+}
+.movie{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    font-size: 15px;
+    left:150px;
+    top:230px;
+}
+.navbar{
+background-image: linear-gradient(to right,red,rgb(38, 141, 51));
+width: 100%;
+height: 50px;
+}
+ul li{
+    float: right;
+    list-style-type: none;
+    padding:15px 30px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+.heading{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin:30px;
+}
+.prev{
+    position: absolute;
+    top:300px;
+    left:160px;
+}
+.next{
+    position: absolute;
+    top:300px;
+    left:190px;
+
+}
+.play{
+    position: absolute;
+    top:300px;
+    left:170px;
+
+}
+#home{
+    width: 100%; 
+     background: url(bg.jpeg) no-repeat center center/cover;
+}
+.p{
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgb(41, 115, 241);
+}
+#heading{
+    margin:30px 20px;
+    color: rgb(235, 228, 228);
+}
+.list{
+    margin-top: 20px;
+    position: relative;
+}
+.listimage{
+    width: 150px;
+    height: 150px;
+    display: inline;
+    margin: 20px;
+}
+.song{
+    font-size: 25px;
+    display: inline;
+    position: absolute;
+    top:50px;
+    left:200px;
+    color: aliceblue;
+}
+.desc{
+    font-size: 20px;
+    display: inline;
+    position: absolute;
+    top:80px;
+    left:200px;
+    color: aliceblue;
+}
+#song{
+    text-align: center;
+    border-bottom: 3px solid red;
+    margin: 40px;
+    
+}
+#playmusic{
+background-color: rgb(9, 51, 53);
+}
+
+.form{
+    margin-top: 30px;
+    padding-bottom:10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.d2{
+    padding:10px;
+    width: 450px;
+}
+.formcontent{
+    background-color: cadetblue;
+    margin-left: 30%;
+    width: 700px;
+    box-shadow: 10px 10px 10px rgb(11, 124, 128) ;
+    
+}
+input{
+    padding:5px;
+    font-size: 10px;
+
+}
+.yes{
+    margin: 10px;
+}
+.c{
+    margin-left: 40%;
+    border-bottom: 3px solid red;
+    border-width: 5px;
+    width: 250px;
+    text-align: center;
+    
+}
+
+.in{
+    width: 450px;
+    padding: 8px;
+    font-size: 17px;
+}
+#button{
+padding: 5px;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 2px solid black;
+}

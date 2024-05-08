@@ -1,0 +1,47 @@
+.d1{
+    margin-top: 30px;
+    padding-bottom:10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.d2{
+    padding:10px;
+    width: 450px;
+}
+.content{
+    background-color: cadetblue;
+    margin-left: 30%;
+    width: 700px;
+    box-shadow: 10px 10px 10px rgb(11, 124, 128) ;
+    
+}
+input{
+    padding:5px;
+    font-size: 10px;
+
+}
+.yes{
+    margin: 10px;
+}
+h1{
+    margin-left: 35%;
+    border-bottom: 3px solid red;
+    border-width: 5px;
+    width: 250px;
+    
+}
+.in{
+    width: 450px;
+    padding: 8px;
+    font-size: 17px;
+}
+#button{
+padding: 5px;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 2px solid black;
+}
+body{
+    background-color: rgb(70, 208, 212);
+}

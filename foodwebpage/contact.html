@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecss.css">
+    <title>ContactUs</title>
+</head>
+ 
+<body>
+    <h1>CONTACT US</h1>
+    <form>
+        <div class="content">
+    <div class="d1">
+        <label for='query'>Types Of Query</label>
+    </div>
+    <div class="d2">
+        <select id="query" class="in">
+            <option value=" select">Select</option>
+            <option value=" Order Related Issue">Order Related Issue</option>
+            <option value="Site Related Issue ">Site Related Issue </option>
+            <option  value="Complaint Related Issue " >Complaint Related Issue </option>
+             <option value="other "> other</option>
+      </select>
+    </div>
+    <br><br>
+<div class="d1">
+    <label for="name">NAME</label>
+</div>
+<div class="d2">
+    <input type="text" placeholder="name" id='name' name="yourname" class="in">
+</div>
+<div class="d1"><label for="email">E-MAIL</label></div>
+<div class="d2">
+<input type="email" id="email" name="youemail" placeholder="e-mail" class="in">
+</div>
+<div class="d1"><label for="phoneno.">PHONE NUMBER</label></div>
+<div class="d2"><input type="text" id="phoneno." placeholder="XXXXXX12"  class="in"></div>
+<div class="d1">
+    <fieldset><legend>Are You  Member Of Online Foodshop</legend>
+        <input type="radio" id ="r" name="c"><label for="r" class="yes">Yes</label><br>
+        <input type="radio" id ="w" name="c"><label for="r" class="yes">No</label>
+</div>
+<div class="d1">
+    <label for="txt">Ellaborate Your Query </label>
+</div>
+<div class="d2">
+    <textarea rows="8" cols="30" class="in" id="txt"> Write Your Query Here </textarea>
+</div>
+<div class="d2">
+<input type="button" value="SUBMIT" id="button"></div>
+</div>
+</form>
+</body>
+ </html>

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 161, 88);
+}
+.label{
+   display: block; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 100;
+   font-size: 20px;
+   color: black;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+.input{
+    display: block;
+    margin-left: 30px;
+    width: 450px;
+    padding:5px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#form{
+    margin-top: 10px;
+    margin-left: 30%;
+    width: 46%;
+    height: 700px;
+    background-color: rgb(228, 181, 120);
+    box-shadow: 20px 20px 20px rgb(218, 154, 72);
+}
+.s{
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#h1{
+    align-items: center;
+    color: rgb(73, 35, 7);
+    margin-left:45% ;
+}
+#submit{
+    color: rgb(14, 1, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
