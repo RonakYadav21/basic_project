@@ -1,0 +1,90 @@
+#menu ul li{
+    font-size:20px;
+    padding-left:2px;
+    padding-right:2px;
+}
+.dropdown-menu a.nav-link:hover{
+    color:red !important;
+    } 
+    nav{
+        box-shadow:0px 8px 8px 0px #ccc;
+        padding-top:15px !important;
+        padding-bottom:15px !important; 
+    }
+
+#home{
+    padding-bottom: 0;
+}
+ #home,#service, #Client,#pricing,  #about{
+padding-top: 100px;
+background-color: white;
+    }
+#service{
+    background-color:white;
+}
+#service h1{
+margin-bottom:50px;
+}
+ h1{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-style: normal;     
+}
+#home img{
+    margin-left:25%;
+}
+#cont{
+    margin-top:30px;
+    font-size:20px;
+}
+#about p{
+font-size:20px;
+margin:30px 0 40px 0;
+}
+#about h1{
+    margin-bottom:50px;
+   
+}
+#about h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;     
+}
+.code-icon{
+    font-size:40px;
+    background-color:white !important;
+    border:1px solid #ccc;
+    padding:15px;
+    box-shadow:0px 0px 5px 0px #efefef;
+    border-radius:50%;
+    width:70px;
+    height:70px;
+    padding-left:10px;
+}
+#service h3{
+    margin:20px;
+}
+#Client{
+    margin:0px;
+}
+.client-pic{
+   width:100px;
+   height:100px;
+   border-radius:50%;
+   border:3px solid #fff;
+   margin-top:50px;
+   box-shadow:0px 0px 5px 0px grey;
+    
+}
+.carousel-item h3{
+  margin-top:20px;
+}
+.social-icon{
+   border:1px solid black;
+   font-size:17px;
+   padding:10px; 
+}
+.move{
+    color:black;
+    
+}
